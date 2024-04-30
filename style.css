@@ -4,20 +4,21 @@
   box-sizing: border-box;
 }
 
-.container{
-max-width: 120rem;
-padding: 3.2rem;
-margin: 0 auto;
+.container {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   color: #343a40
 }
 
-header{
+/* *************Hero Section************ */
+header {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
   margin-bottom: 96px;
   margin-top: 64px;
@@ -33,7 +34,7 @@ h1 {
   line-height: 1.1;
   letter-spacing: -1px;
 }
-  
+
 .header-text {
   margin-bottom: 24px;
   font-size: 18px;
@@ -41,16 +42,20 @@ h1 {
 }
 
 img {
+  height: 450px;
+  width: 600px;
   border-radius: 12px;
 }
 
 .btn:link,
 .btn:visited {
-  background-color: #087f5b;
+  /* background-color: #087f5b; */
+  background-color: rgb(243, 72, 10);
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
+
 
   display: inline-block;
   border-radius: 100px;
@@ -58,10 +63,49 @@ img {
 
 .btn:hover,
 .btn:active {
-  background-color: #099268;
+  background-color: #da0505;
 }
 
 .btn-big {
   font-size: 18px;
   padding: 16px 32px;
+}
+
+
+/* *************Features Section************ */
+section {
+  margin-bottom: 96px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+
+h2 {
+  margin-bottom: 48px;
+  font-size: 36px;
+  letter-spacing: -0.5px;
+
+}
+
+
+
+.features-icon {
+  stroke: rgb(243, 72, 10);
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+}
+
+.features-title {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.features-text {
+  font-size: 18px;
+  line-height: 1.7;
 }

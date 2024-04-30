@@ -92,7 +92,6 @@ h2 {
 }
 
 
-
 .features-icon {
   stroke: rgb(243, 72, 10);
   width: 32px;
@@ -108,4 +107,40 @@ h2 {
 .features-text {
   font-size: 18px;
   line-height: 1.7;
+}
+
+/* TESTIMONIAL */
+.testimonial-section {
+  background-color: rgb(243, 72, 10);
+  color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.testimonial-section:hover,
+.testimonial-section:active {
+  background-color: #da0505;
+}
+
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.testimonial-box h2 {
+  margin-bottom: 24px;
+  /* 20 / 24 / 30 */
+  font-size: 24px;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: ##e6fcf5;
+}
+
+.testimonial-author {
+  color: #c3fae8;
 }
